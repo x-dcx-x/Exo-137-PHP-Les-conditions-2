@@ -2,7 +2,7 @@
 /*****************************************/
 /********** Conditions Simples ***********/
 /*****************************************/
-//### Exemple ###//
+### Exemple ###//
 echo "CONDITIONS SIMPLES <br><br>";
 
 $animal = "Chat";
@@ -24,11 +24,22 @@ echo "<br><br>";
 /*################# ACTIVITÉS ###################*/
 /*###############################################*/
 // Écrire la condition qui affiche "Non" quand $chat vaut "Chien" et affiche "Oui" quand $chat vaut "Chat" ###//
-$animal = "Chien";
+
+
 echo "2.Est-ce un chat : ";
 
+$animal = "Chat";
+$chien = "Chien";
 // TODO mettre votre code ici
 
+if ($animal === "Chien"){
+    echo  "Oui";
+}
+elseif ($chat = "chat")
+    echo "oui";
+else {
+    echo "Non";
+}
 echo "<br><br>";
 
 //----------------------------------------
@@ -37,6 +48,15 @@ $chat = true;
 echo "3.Est-ce un chat : ";
 
 // TODO mettre votre code ici
+if($chat === false){
+    echo "Oui";
+}
+elseif ($chat === true){
+    echo "Chat n est pas strictement egal false ";
+}
+elseif ($chat === false){
+    echo "Non";
+}
 
 echo "<br><br>";
 
